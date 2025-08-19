@@ -12,7 +12,7 @@
     justify-content: flex-start;
     color: white;
     font-size: 42px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -23,6 +23,22 @@
 .top-grid .box span {
     position: relative;
     z-index: 1;
+}
+
+.top-grid .box span::after {
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-left: 8px;
+    font-size: 0.6em;
+    vertical-align: middle;
+    display: inline-block;
+    transition: transform .25s ease;
+    color: inherit;
+}
+
+.top-grid .box:hover span::after {
+    transform: translateX(4px);
 }
 
 .box.life {
@@ -66,15 +82,15 @@
 }
 
 .box.molecular::before {
-    background-image: url('../img/life-hover.png');
+    background-image: url('../img/molecular-hover.png');
 }
 
 .box.plastic::before {
-    background-image: url('../img/life-hover.png');
+    background-image: url('../img/plastic-hover.png');
 }
 
 .box.others::before {
-    background-image: url('../img/life-hover.png');
+    background-image: url('../img/others-hover.png');
 }
 
 .top-grid .box:hover {
@@ -161,15 +177,32 @@
     will-change: clip-path;
 }
 
-.top-grid .box:nth-child(1) { animation-delay: 0.12s; }
-.top-grid .box:nth-child(2) { animation-delay: 0.18s; }
-.top-grid .box:nth-child(3) { animation-delay: 0.22s; }
-.top-grid .box:nth-child(4) { animation-delay: 0.16s; }
+.top-grid .box:nth-child(1) {
+    animation-delay: 0.12s;
+}
 
-.bottom-section .bottom-box:nth-child(1) { animation-delay: 0.20s; }
-.bottom-section .bottom-box:nth-child(2) { animation-delay: 0.26s; }
+.top-grid .box:nth-child(2) {
+    animation-delay: 0.18s;
+}
+
+.top-grid .box:nth-child(3) {
+    animation-delay: 0.22s;
+}
+
+.top-grid .box:nth-child(4) {
+    animation-delay: 0.16s;
+}
+
+.bottom-section .bottom-box:nth-child(1) {
+    animation-delay: 0.20s;
+}
+
+.bottom-section .bottom-box:nth-child(2) {
+    animation-delay: 0.26s;
+}
 
 @media (prefers-reduced-motion: reduce) {
+
     .top-grid .box,
     .bottom-section .bottom-box {
         animation: none !important;
