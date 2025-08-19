@@ -1,0 +1,21 @@
+{
+    "index": {
+        "clear-s-total-rna-50rxn": "life-science",
+        "clear-s-mirna-100rxn": "life-science",
+        "beniprep-super-plant-rna-50rxn": "life-science",
+        "clear-s-quick-dna-100rxn": "life-science",
+        "clear-s-plasmid-miniprep-200rxn": "life-science",
+        "clear-s-pcr-gel-dna-200rxn": "life-science",
+        "clear-s-beniprep-dna-swift-250-500rxn": "life-science",
+        "beniprep-soil-fecal-dna-50rxn": "life-science",
+        "clear-s-tissue-dna-50rxn": "life-science",
+        "clear-s-total-dna-rna-50rxn": "life-science",
+        "beniprep-pathogen-dna-rna-100rxn": "life-science",
+        "beniprep-magnetic-nucleic-100rxn": "life-science",
+        "beniprep-super-plant-total-nucleic-50rxn": "life-science",
+        "bulk-buffer": "life-science",
+        "enzyme": "life-science",
+        "column-tube": "life-science",
+        "real-time-hot-start-pcr": "life-science"
+    }
+}

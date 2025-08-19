@@ -1,0 +1,306 @@
+{
+    "category": "life-science",
+    "products": [
+        {
+            "id": 101,
+            "slug": "clear-s-total-rna-50rxn",
+            "categoryLabel": "Sample Preparation RNA",
+            "name": "Clear-S™<br>Total RNA extraction kit<br>(50rxn)",
+            "thumbnail": "./assets/img/life-product01.png",
+            "image": "./assets/img/sub-product-detail01.png",
+            "overview": "This kit enables clean and efficient total RNA extraction from various sample types such as cells, animal tissue, plant tissue, and insects. The entire process can be completed within 20 minutes using a simple protocol. It is suitable for downstream applications such as RT-PCR. Debris and PCR inhibitors are removed through a pre-treatment step, and genomic DNA contamination is minimized using a genomic DNA inhibitor, resulting in high-quality RNA with excellent reproducibility. This product adop",
+            "features": [
+                "Efficient and high-purity total RNA extraction from various samples",
+                "Minimizes genomic DNA contamination",
+                "High reproducibility using spin-column method",
+                "No phenol or chloroform required for RNA extraction"
+            ],
+            "applications": [
+                "cDNA synthesis",
+                "RT-PCR",
+                "Quantitative Real-time RT-PCR",
+                "Digital RT-PCR",
+                "Northern blot"
+            ],
+            "protocol": "Sample → Homogenate → Filtering → Mixture → Binding → 1st Wash → 2nd Wash → 3rd Wash → Elution → RNA",
+            "experimentalData": [
+                "Figure 1. Bacterial RNA extraction using Clear-S™ Total RNA extraction kit. 400 ng purified total RNA extracted from bacteria without DNase treatment. Lane 1: Escherichia coli, Lane 2: Staphylococcus aureus, Lane 3: Candida albicans",
+                "Figure 2. Plant RNA extraction using Clear-S™ Total RNA extraction kit. 500 ng purified total RNA extracted from plants. Lane 1: Nicotiana benthamiana, Lane 2: Capsicum annuum, Lane 3: Arabidopsis thaliana (without DNase treatment)",
+                "Figure 3. Real-time qRT-PCR of Tenebrio molitor L27a gene. 1 μg RNA was extracted using Clear-S™ Total RNA extraction kit from mealworm larvae and cDNA was synthesized. qRT-PCR was conducted using Agilent AriaMX.",
+                "Figure 4. Comparison of nucleic acid preservation using different lysis buffers. Target pathogen samples stored at 4°C and 25°C in three different lysis buffers (PBS, company A lysis buffer, Invirustech lysis buffer) were tested by real-time P"
+            ],
+            "orderingImage": "./assets/img/life-product-detail01.png"
+        },
+        {
+            "id": 102,
+            "slug": "clear-s-mirna-100rxn",
+            "categoryLabel": "Sample Preparation RNA",
+            "name": "Clear-S™ <br>miRNA extraction kit <br>(100rxn)",
+            "thumbnail": "./assets/img/life-product02.png",
+            "image": "./assets/img/sub-product-detail02.png",
+            "overview": "This kit efficiently and reliably extracts high-quality micro RNA from various bacteria, cells, animal tissues, and general plant tissues. The protocol enables simple and rapid miRNA extraction within 20 minutes, without the use of phenol, chloroform, CsCl, or alcohol-based reagents with toxic properties.",
+            "features": [
+                "Rapid and efficient micro RNA extraction from diverse samples",
+                "High reproducibility using spin column",
+                "Extraction possible without phenol or chloroform"
+            ],
+            "applications": [
+                "cDNA synthesis, RT-PCR, Quantitative Real-time RT-PCR, Digital RT-PCR"
+            ],
+            "protocol": "Sample → Homogenate → Mixture → Binding → 1st Wash → 2nd Wash → Elution → RNA",
+            "experimentalData": [
+                "Figure 1: Comparison of miRNA extraction from E. coli using kits from multiple companies.",
+                "Figure 2: Visualization of bacterial miRNA using CGE-based detection; marker = 20 bp.",
+                "Figure 3: Plant (Tobacco) miRNA extraction comparison using different kits.",
+                "Figure 4: Real-time PCR amplification curves from tobacco small RNA."
+            ],
+            "orderingImage": "./assets/img/life-product-detail02.png"
+        },
+        {
+            "id": 103,
+            "slug": "beniprep-super-plant-rna-50rxn",
+            "categoryLabel": "Sample Preparation RNA",
+            "name": "Beniprep® <br>Super Plant RNA extraction kit <br>(50rxn)",
+            "thumbnail": "./assets/img/life-product03.png",
+            "image": "./assets/img/sub-product-detail03.png",
+            "overview": "Without using organic solvents, this kit extracts high-quality RNA from a variety of plant tissues using a simple and rapid protocol. It effectively extracts RNA from difficult samples like PR-rich plant tissues (e.g., peppers) and standard samples like cabbage, watermelon, grapes, apples, tomatoes, and lettuce. It also performs well even with RNase-rich samples.",
+            "features": [
+                "Efficient high-quality RNA extraction from various plant tissues",
+                "Excellent for fruits and vegetables rich in polysaccharides and polyphenols",
+                "Spin-column for high reproducibility",
+                "No need for phenol, chloroform, CTAB, or LiCl"
+            ],
+            "applications": [
+                "cDNA synthesis, RT-PCR, Quantitative Real-time RT-PCR, Digital RT-PCR, Northern blot, Molecular detection"
+            ],
+            "protocol": "Sample → Homogenate → Filtration → Mixture → Binding → Wash (1st to 4th) → Elution → RNA",
+            "experimentalData": [
+                "Figure 1: Total RNA extraction from cabbage, watermelon, radish, and tomato (500 ng purified RNA).",
+                "Figure 2: RNA extraction from Pinus densiflora and Abies koreana; analyzed on agarose gel."
+            ],
+            "orderingImage": "./assets/img/life-product-detail03.png"
+        },
+        {
+            "id": 104,
+            "slug": "clear-s-quick-dna-100rxn",
+            "categoryLabel": "DNA Extraction",
+            "name": "Clear-S™ <br>Quick DNA extraction kit <br>(100rxn)",
+            "thumbnail": "./assets/img/life-product04.png",
+            "image": "./assets/img/sub-product-detail04.png",
+            "overview": "This kit enables rapid and high-purity extraction of total DNA from various sample types including bacteria, cells, animal tissues, insects, and plant tissues. DNA extraction is completed within 1 hour using a simple protocol, and the kit is optimized for downstream applications such as PCR. The kit includes a pre-treatment column to efficiently remove debris and PCR inhibitors. A 2-column system provides safe and consistent performance.",
+            "features": [
+                "Efficient and rapid extraction of total DNA from diverse samples",
+                "High reproducibility using a spin-column system",
+                "No phenol or chloroform required"
+            ],
+            "applications": [
+                "PCR",
+                "Quantitative PCR",
+                "Digital PCR",
+                "Southern blot"
+            ],
+            "protocol": "Sample → Homogenate → Filtering → Mixture → Binding → Wash (3x) → Elution → DNA",
+            "experimentalData": [
+                "Figure 1. Genomic DNA extraction from E. coli, S. aureus, C. albicans, S. cerevisiae, barley, cactus.",
+                "Figure 2. DNA from cactus, daffodil, ryegrass, and mealworm.",
+                "Figure 3. qPCR of Italian ryegrass housekeeping genes.",
+                "Figure 4. Detection of Tsutsugamushi using Clear-MD™ kit after extraction with Clear-S™."
+            ],
+            "orderingImage": "./assets/img/life-product-detail04.png"
+        },
+        {
+            "id": 105,
+            "slug": "clear-s-plasmid-miniprep-200rxn",
+            "categoryLabel": "Plasmid DNA",
+            "name": "Clear-S™ <br>Plasmid Miniprep kit <br>(200rxn)",
+            "thumbnail": "./assets/img/life-product05.png",
+            "image": "./assets/img/sub-product-detail05.png",
+            "overview": "Based on alkaline lysis and Boom methods, this kit enables simple and efficient extraction of high-purity plasmid DNA from recombinant E. coli strains. The kit includes WAS buffer with endA- targeting reagents (nuclease denaturation activity) to improve DNA quality. The purified plasmid DNA is suitable for applications such as sequencing, sub-cloning, and transformation.",
+            "features": [
+                "Enables purification of over 20 µg of high-purity plasmid",
+                "Spin column method",
+                "Rapid procedure completed within 1 hour"
+            ],
+            "applications": [
+                "Sub-cloning",
+                "Sequencing",
+                "Transformation",
+                "Restriction digestion"
+            ],
+            "protocol": "Sample → Vortex → Inverting → Binding → Wash 1 → Wash 2 → Elution → DNA",
+            "experimentalData": [
+                "Figure 1. Agarose gel electrophoresis of plasmid DNA extracted from E. coli cells. Lane M: 1 kb marker; Lanes 1 and 2: Invirustech; Lanes 3 and 4: Competitor.",
+                "Figure 2. Agarose gel electrophoresis of plasmid DNA extracted from E. coli cells. Lane M: 1 kb marker; Lanes 1 and 2: Invirustech; Lanes 3 and 4: Company S; Lanes 5 and 6: Company I; Lanes 7 and 8: Company F."
+            ],
+            "orderingImage": "./assets/img/life-product-detail05.png"
+        },
+        {
+            "id": 106,
+            "slug": "clear-s-pcr-gel-dna-200rxn",
+            "categoryLabel": "DNA Extraction",
+            "name": "Clear-S™ PCR/Gel DNA extraction kit (200rxn)",
+            "thumbnail": "./assets/img/life-product06.png",
+            "image": "./assets/img/sub-product-detail06.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 107,
+            "slug": "clear-s-beniprep-dna-swift-250-500rxn",
+            "categoryLabel": "DNA Extraction",
+            "name": "Clear-S™ BeniPrep DNA Swift kit (250-500rxn)",
+            "thumbnail": "./assets/img/life-product07.png",
+            "image": "./assets/img/sub-product-detail07.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 108,
+            "slug": "beniprep-soil-fecal-dna-50rxn",
+            "categoryLabel": "DNA Extraction",
+            "name": "BeniPrep™ Soil/Fecal DNA extraction kit (50rxn)",
+            "thumbnail": "./assets/img/life-product08.png",
+            "image": "./assets/img/sub-product-detail08.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 109,
+            "slug": "clear-s-tissue-dna-50rxn",
+            "categoryLabel": "DNA Extraction",
+            "name": "Clear-S™ Tissue DNA extraction kit (50rxn)",
+            "thumbnail": "./assets/img/life-product09.png",
+            "image": "./assets/img/sub-product-detail09.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 110,
+            "slug": "clear-s-total-dna-rna-50rxn",
+            "categoryLabel": "DNA/RNA Extraction",
+            "name": "Clear-S™ Total DNA/RNA extraction kit (50rxn)",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail10.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 111,
+            "slug": "beniprep-pathogen-dna-rna-100rxn",
+            "categoryLabel": "DNA/RNA Extraction",
+            "name": "BeniPrep™ Pathogen DNA/RNA extraction kit (100rxn)",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail11.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 112,
+            "slug": "beniprep-magnetic-nucleic-100rxn",
+            "categoryLabel": "DNA/RNA Extraction",
+            "name": "BeniPrep™ Magnetic Nucleic extraction kit (100rxn)",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail12.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 113,
+            "slug": "beniprep-super-plant-total-nucleic-50rxn",
+            "categoryLabel": "DNA/RNA Extraction",
+            "name": "BeniPrep™ Super Plant Total Nucleic extraction kit (50rxn)",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail13.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 114,
+            "slug": "bulk-buffer",
+            "categoryLabel": "Buffer",
+            "name": "Bulk Buffer",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail14.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 115,
+            "slug": "enzyme",
+            "categoryLabel": "Enzyme",
+            "name": "Enzyme",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail15.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 116,
+            "slug": "column-tube",
+            "categoryLabel": "Consumables",
+            "name": "Column Tube",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail16.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        },
+        {
+            "id": 117,
+            "slug": "real-time-hot-start-pcr",
+            "categoryLabel": "PCR",
+            "name": "Real-time Hot Start PCR kit",
+            "thumbnail": "",
+            "image": "./assets/img/sub-product-detail17.png",
+            "overview": "",
+            "features": [],
+            "applications": [],
+            "protocol": "",
+            "experimentalData": [],
+            "orderingImage": ""
+        }
+    ]
+}

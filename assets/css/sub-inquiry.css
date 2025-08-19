@@ -1,0 +1,126 @@
+.inquiry {
+    position: relative;
+    background: url("../img/sub-inquiry-bg.png") center/cover no-repeat;
+    color: white;
+    padding: 140px 0 180px;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    z-index: 1;
+}
+
+.left {
+    flex: 1;
+}
+
+.title {
+    font-size: 74px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info .icon {
+    width: 40px;
+    height: auto;
+}
+
+.form {
+    margin-top: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 17px 20px;
+    gap: 12px;
+}
+
+.field input,
+.field textarea {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    color: #333;
+}
+
+.field .icon {
+    width: 16px;
+    height: auto;
+}
+
+::placeholder {
+    color: #6A748A;
+}
+
+.field.textarea {
+    align-items: flex-start;
+}
+
+.field textarea {
+    resize: none;
+    height: 140px !important;
+}
+
+.check {
+    color: #FCFCFD;
+    max-width: 440px;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.check input {
+    accent-color: #003E7D;
+}
+
+.policy {
+    color: #FCFCFD;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    align-self: flex-start;
+}
+
+.btn {
+    margin: 10px auto 0;
+    width: 315px;
+    background: #003E7D;
+    color: #FCFCFD;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #26a69a;
+}

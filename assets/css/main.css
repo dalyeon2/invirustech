@@ -1,0 +1,196 @@
+.top-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 400px;
+}
+
+.top-grid .box {
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    z-index: 0;
+}
+
+.top-grid .box span {
+    position: relative;
+    z-index: 1;
+}
+
+.box.life {
+    background: #2794EB;
+}
+
+.box.molecular {
+    background: #38C6BD;
+}
+
+.box.plastic {
+    background: #1ECCE4;
+}
+
+.box.others {
+    background: #56C2F8;
+}
+
+.top-grid .box::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    bottom: -40px;
+    left: 10px;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.2);
+    opacity: 0;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    z-index: 0;
+}
+
+.top-grid .box:hover::before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.box.life::before {
+    background-image: url('../img/life-hover.png');
+}
+
+.box.molecular::before {
+    background-image: url('../img/life-hover.png');
+}
+
+.box.plastic::before {
+    background-image: url('../img/life-hover.png');
+}
+
+.box.others::before {
+    background-image: url('../img/life-hover.png');
+}
+
+.top-grid .box:hover {
+    color: #041983;
+    text-decoration: underline;
+    text-decoration-color: #041983;
+    text-underline-offset: 10px;
+}
+
+.bottom-section {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.bottom-box {
+    flex: 1;
+    height: 790px;
+    display: flex;
+    align-items: flex-end;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.bg-box.overview {
+    background: url("../img/main01.png") no-repeat center/cover;
+}
+
+.bg-box.company {
+    background: url("../img/main02.png") no-repeat center/cover;
+}
+
+.overlay-text {
+    color: white;
+    max-width: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.overlay-text p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.overlay-logo {
+    width: 290px;
+    height: auto;
+}
+
+.overlay-text.company-text {
+    gap: 15px;
+    color: #1C3855;
+    max-width: 610px;
+}
+
+.overlay-text.company-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.overlay-text.company-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@keyframes wipeReveal {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.top-grid .box,
+.bottom-section .bottom-box {
+    opacity: 1;
+    animation: wipeReveal 0.8s ease-out forwards;
+    will-change: clip-path;
+}
+
+.top-grid .box:nth-child(1) { animation-delay: 0.12s; }
+.top-grid .box:nth-child(2) { animation-delay: 0.18s; }
+.top-grid .box:nth-child(3) { animation-delay: 0.22s; }
+.top-grid .box:nth-child(4) { animation-delay: 0.16s; }
+
+.bottom-section .bottom-box:nth-child(1) { animation-delay: 0.20s; }
+.bottom-section .bottom-box:nth-child(2) { animation-delay: 0.26s; }
+
+@media (prefers-reduced-motion: reduce) {
+    .top-grid .box,
+    .bottom-section .bottom-box {
+        animation: none !important;
+        clip-path: inset(0 0 0 0) !important;
+    }
+}
+
+@supports not (clip-path: inset(0 0 0 0)) {
+    @keyframes maskReveal {
+        from {
+            -webkit-mask: linear-gradient(#000 0 0) left/0% 100% no-repeat;
+        }
+
+        to {
+            -webkit-mask: linear-gradient(#000 0 0) left/100% 100% no-repeat;
+        }
+    }
+
+    .top-grid .box,
+    .bottom-section .bottom-box {
+        -webkit-mask: linear-gradient(#000 0 0) left/0% 100% no-repeat;
+        animation: maskReveal 1.2s ease-out forwards;
+    }
+}
