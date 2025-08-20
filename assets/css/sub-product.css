@@ -38,6 +38,19 @@
     transition: outline 0.3s ease;
 }
 
+.product-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 62, 125, 0.04);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-card:hover::after {
+    opacity: 1;
+}
+
 .product-card:hover {
     outline: 4px solid #003E7D;
 }
@@ -68,12 +81,22 @@
     word-wrap: break-word;
 }
 
+.product-card:hover .product-name {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
+
 .product-img {
     position: absolute;
-    right: -20px;
+    right: -17px;
     bottom: 0;
     width: 327px;
     height: auto;
+    transition: transform 0.6s ease;
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.1) translate(-15px, -10px);
 }
 
 @keyframes squishGrow {
@@ -96,12 +119,29 @@
     will-change: transform, opacity;
 }
 
-.products-grid .product-card:nth-child(6n+1) { animation-delay: .05s; }
-.products-grid .product-card:nth-child(6n+2) { animation-delay: .10s; }
-.products-grid .product-card:nth-child(6n+3) { animation-delay: .15s; }
-.products-grid .product-card:nth-child(6n+4) { animation-delay: .20s; }
-.products-grid .product-card:nth-child(6n+5) { animation-delay: .25s; }
-.products-grid .product-card:nth-child(6n+6) { animation-delay: .30s; }
+.products-grid .product-card:nth-child(6n+1) {
+    animation-delay: .05s;
+}
+
+.products-grid .product-card:nth-child(6n+2) {
+    animation-delay: .10s;
+}
+
+.products-grid .product-card:nth-child(6n+3) {
+    animation-delay: .15s;
+}
+
+.products-grid .product-card:nth-child(6n+4) {
+    animation-delay: .20s;
+}
+
+.products-grid .product-card:nth-child(6n+5) {
+    animation-delay: .25s;
+}
+
+.products-grid .product-card:nth-child(6n+6) {
+    animation-delay: .30s;
+}
 
 @media (prefers-reduced-motion: reduce) {
     .products-grid .product-card {

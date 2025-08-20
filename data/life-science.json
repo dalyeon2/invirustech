@@ -2,7 +2,7 @@
     "category": "life-science",
     "products": [
         {
-            "id": 101,
+            "id": 1,
             "slug": "clear-s-total-rna-50rxn",
             "categoryLabel": "Sample Preparation RNA",
             "name": "Clear-S™<br>Total RNA extraction kit<br>(50rxn)",
@@ -32,7 +32,7 @@
             "orderingImage": "./assets/img/life-product-detail01.png"
         },
         {
-            "id": 102,
+            "id": 2,
             "slug": "clear-s-mirna-100rxn",
             "categoryLabel": "Sample Preparation RNA",
             "name": "Clear-S™ <br>miRNA extraction kit <br>(100rxn)",
@@ -57,7 +57,7 @@
             "orderingImage": "./assets/img/life-product-detail02.png"
         },
         {
-            "id": 103,
+            "id": 3,
             "slug": "beniprep-super-plant-rna-50rxn",
             "categoryLabel": "Sample Preparation RNA",
             "name": "Beniprep® <br>Super Plant RNA extraction kit <br>(50rxn)",
@@ -81,9 +81,9 @@
             "orderingImage": "./assets/img/life-product-detail03.png"
         },
         {
-            "id": 104,
+            "id": 4,
             "slug": "clear-s-quick-dna-100rxn",
-            "categoryLabel": "DNA Extraction",
+            "categoryLabel": "Sample Preparation DNA",
             "name": "Clear-S™ <br>Quick DNA extraction kit <br>(100rxn)",
             "thumbnail": "./assets/img/life-product04.png",
             "image": "./assets/img/sub-product-detail04.png",
@@ -109,9 +109,9 @@
             "orderingImage": "./assets/img/life-product-detail04.png"
         },
         {
-            "id": 105,
+            "id": 5,
             "slug": "clear-s-plasmid-miniprep-200rxn",
-            "categoryLabel": "Plasmid DNA",
+            "categoryLabel": "Sample Preparation DNA",
             "name": "Clear-S™ <br>Plasmid Miniprep kit <br>(200rxn)",
             "thumbnail": "./assets/img/life-product05.png",
             "image": "./assets/img/sub-product-detail05.png",
@@ -135,121 +135,244 @@
             "orderingImage": "./assets/img/life-product-detail05.png"
         },
         {
-            "id": 106,
+            "id": 6,
             "slug": "clear-s-pcr-gel-dna-200rxn",
-            "categoryLabel": "DNA Extraction",
-            "name": "Clear-S™ PCR/Gel DNA extraction kit (200rxn)",
+            "categoryLabel": "Sample Preparation DNA",
+            "name": "Clear-S™ <br>PCR/Gel DNA fragment <br>purification kit (200rxn)",
             "thumbnail": "./assets/img/life-product06.png",
             "image": "./assets/img/sub-product-detail06.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This kit purifies DNA fragments from various PCR reactions and agarose gels. It efficiently removes contaminants such as primer dimers, enzymes, dNTPs, and dyes. Designed for convenient and effective purification, this kit provides high recovery of DNA fragments suitable for cloning and other downstream applications.",
+            "features": [
+                "Simple purification for PCR and gel extraction in one kit",
+                "High-quality membrane provides efficient purification in a single wash",
+                "Purifies DNA fragments from 100 bp to 20 kb"
+            ],
+            "applications": [
+                "Sub-cloning",
+                "Sequencing",
+                "Labeling",
+                "DNA concentration"
+            ],
+            "protocol": "PCR product or gel slice → Binding → Wash → Elution → Purified fragment DNA",
+            "experimentalData": [
+                "Figure 1. Electrophoretic analysis of purified 100-bp DNA size markers using different elution volumes. Lane M: 100-bp marker; Lanes 1 and 2: 30 µl and 5 µl elution (Invirustech); Lanes 3 and 4: 30 µl and 5 µl (Company A).",
+                "Figure 2. Electrophoretic analysis of purified 1-kb DNA size markers using different elution volumes. Lane M: 1-kb marker; Lanes 1 and 2: 30 µl and 5 µl elution (Invirustech); Lanes 3 and 4: 30 µl and 5 µl (Company A).",
+                "Figure 3. PCR purification under dimer-removal conditions using the Clear-S™ PCR/Gel DNA purification kit. Lane 1: before purification; Lane 2: Invirustech; Lane 3: Company A."
+            ],
+            "orderingImage": "./assets/img/life-product-detail06.png"
         },
         {
-            "id": 107,
-            "slug": "clear-s-beniprep-dna-swift-250-500rxn",
-            "categoryLabel": "DNA Extraction",
-            "name": "Clear-S™ BeniPrep DNA Swift kit (250-500rxn)",
+            "id": 7,
+            "slug": "beniprep-dna-swift-250-500rxn",
+            "categoryLabel": "Sample Preparation DNA",
+            "name": "Beniprep® <br>DNA Swift extraction solution <br>(250-500rxn)",
             "thumbnail": "./assets/img/life-product07.png",
             "image": "./assets/img/sub-product-detail07.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This product is a high-efficiency, rapid, and cost-effective DNA prep solution based on tissue lysis buffer and DNA solubilization buffer. It is designed to extract DNA from various samples including plant tissue and insect tissue, providing better PCR success than direct PCR. Compared to column-type DNA prep, this solution is more economical and timeefficient.",
+            "features": [
+                "High-purity DNA extraction from various samples",
+                "No phenol or chloroform required"
+            ],
+            "applications": [
+                "cDNA synthesis",
+                "PCR",
+                "Quantitative PCR",
+                "Digital PCR"
+            ],
+            "protocol": "Sample → Homogenize → Add GRB/DHB → Mix → Add Proteinase K → Heat → Cool → Mix → DNA ready",
+            "experimentalData": [
+                "Figure 1. PCR amplification of housekeeping genes from various plant samples. Panel A: Unpurified plant sap; Panels B and C: Samples processed with Beniprep® DNA Swift extraction solution. Lane 1: Mango leaf; Lane 2: Strawberry leaf; Lane 3: Pepper leaf; Lane 4: Banana leaf; Lane 5: Italian ryegrass seed.",
+                "Figure 2. PCR amplification of target genes from various plant samples. Lane 1: Pepper; Lane 2: Radish; Lane 3: Napa cabbage; Lane 4: Cabbage; Lane 5: Watermelon; Lane 6: Cabbage; Lane 7: Melon; Lane 8: Tomato.",
+                "Figure 3. Stability of DNA extracted using Beniprep® DNA Swift extraction solution over four weeks. DNA was extracted from Drosophila using Beniprep® DNA Swift extraction solution and stored at 4°C for up to 4 weeks. PCR was performed weekly to confirm stability of extracted DNA.",
+                "Figure 4. ITS region amplification from fungal DNA using Beniprep® DNA Swift extraction solution. ITS region was amplified from genomic DNA extracted from fungal samples. Results confirmed clean and consistent PCR bands, indicating high extraction performance."
+            ],
+            "orderingImage": "./assets/img/life-product-detail07.png"
         },
         {
-            "id": 108,
+            "id": 8,
             "slug": "beniprep-soil-fecal-dna-50rxn",
-            "categoryLabel": "DNA Extraction",
-            "name": "BeniPrep™ Soil/Fecal DNA extraction kit (50rxn)",
+            "categoryLabel": "Sample Preparation DNA",
+            "name": "Beniprep® <br>Soil/Fecal DNA extraction kit <br>(50rxn)",
             "thumbnail": "./assets/img/life-product08.png",
             "image": "./assets/img/sub-product-detail08.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This product is designed to extract high-quality genomic DNA from challenging soil samples such as orchard, loam, compost, peat, and clay soils, as well as feces. The one-column system ensures safe and convenient handling, while bead tubes enhance cell lysis. The kit includes reagents that effectively remove PCR inhibitors, making it suitable for downstream applications including metagenomics.",
+            "features": [
+                "High-yield genomic DNA extraction from a variety of soil samples",
+                "Efficient mechanical lysis using bead beating",
+                "Inhibitor removal technology improves PCR compatibility",
+                "High reproducibility with spin-column purification"
+            ],
+            "applications": [
+                "PCR",
+                "Quantitative PCR",
+                "Digital PCR",
+                "16s rRNA sequencing",
+                "Metagenomics"
+            ],
+            "protocol": "Sample → Homogenization → Incubation → Vortex → Binding → Wash x2 → Elution → DNA",
+            "experimentalData": [
+                "Figure 1. High-Quality DNA yields from various soil types using the Beniprep® Soil/Fecal DNA extraction kit. DNA extracted from topsoil, compost, red clay, and andisol and visualized on 1.5% TBE agarose gel.",
+                "Figure 2. Improved and High-Quality DNA from red clay in Muan, Chonnam, using the Beniprep® Soil/Fecal DNA extraction kit. Comparison of DNA yields from Invirustech vs Company Q kits on red clay samples.",
+                "Figure 3. Comparison of soil DNA extraction kits for isolation of High-Quality DNA from andisol, Jeju Island. Comparison of DNA extraction performance between Invirustech and Company Q kits.",
+                "Figure 4. Comparison of soil DNA extraction kits for the isolation of High-Quality DNA from soil microbes in andisol, Jeju Island. Genomic DNA extracted from 250 mg of andisol and visualized on 1.5% TBE agarose gel."
+            ],
+            "orderingImage": "./assets/img/life-product-detail08.png"
         },
         {
-            "id": 109,
+            "id": 9,
             "slug": "clear-s-tissue-dna-50rxn",
-            "categoryLabel": "DNA Extraction",
-            "name": "Clear-S™ Tissue DNA extraction kit (50rxn)",
+            "categoryLabel": "Sample Preparation DNA",
+            "name": "Clear-S™ <br>Tissue DNA extraction kit <br>(50rxn)",
             "thumbnail": "./assets/img/life-product09.png",
             "image": "./assets/img/sub-product-detail09.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This kit allows simple and efficient extraction of high-quality genomic DNA from various sources including bacteria, cells, animal tissue, insects, and plant tissue. The procedure can be completed within 20 to 60 minutes using a simple protocol, and the extracted DNA is compatible with downstream applications such as PCR. For tissues with low DNA yields, enzyme treatment may be extended to improve extraction efficiency.",
+            "features": [
+                "Efficient extraction of high-quality DNA from a wide range of tissue types",
+                "High reproducibility using spin column",
+                "Rapid protocol completed within 20 minutes to 1 hour"
+            ],
+            "applications": [
+                "PCR",
+                "Quantitative PCR",
+                "Digital PCR",
+                "Southern blot"
+            ],
+            "protocol": "Sample → Homogenate → Filtering → Binding → 3-step Wash → Elution → DNA",
+            "experimentalData": [
+                "Figure 1. DNA extraction from various mouse tissues using the Clear-S™ Tissue DNA extraction kit. Genomic DNA was extracted from kidney, brain, spleen, lung, and liver, then visualized on agarose gel.",
+                "Figure 2. DNA extraction from various shellfish species using the Clear-S™ Tissue DNA extraction kit. Shellfish species include Mytilus spp. (mussel), Patinopecten yessoensis (scallop), Ruditapes philippinarum (clam), Chlamys farreri (noble scallop), Rapana venosa (whelk), and Haliotisspp. (abalone). DNA was analyzed by agarose gel electrophoresis."
+            ],
+            "orderingImage": "./assets/img/life-product-detail09.png"
         },
         {
-            "id": 110,
+            "id": 10,
             "slug": "clear-s-total-dna-rna-50rxn",
-            "categoryLabel": "DNA/RNA Extraction",
-            "name": "Clear-S™ Total DNA/RNA extraction kit (50rxn)",
+            "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
+            "name": "Clear-S™ <br>Total DNA/RNA extraction kit <br>(50rxn)",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail10.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This kit enables simple and efficient extraction of both genomic DNA and total RNA from diverse samples such as bacteria, cells, animal tissues, insects, and plants. Using a high-purity spin column system, nucleic acids can be separated by selectively binding to DNA and RNA spin column membranes. DNA and RNA can be isolated individually or together depending on user requirements.",
+            "features": [
+                "High-quality DNA and RNA extraction from various sample types",
+                "Simultaneous extraction of DNA and RNA from the same sample",
+                "High reproducibility using spin column membrane"
+            ],
+            "applications": [
+                "Conventional PCR",
+                "NGS",
+                "cDNA synthesis",
+                "RT-PCR",
+                "Quantitative real-time RT-PCR",
+                "Digital RT-PCR",
+                "Northern Blot",
+                "Molecular detection"
+            ],
+            "protocol": "Sample → Homogenate → Filtering → Binding → Wash x3 → Elution → DNA/RNA",
+            "experimentalData": [
+                "Figure 1. Total RNA extraction from Tenebrio molitor using the Clear-S™ Total DNA/RNA extraction kit. 500 ng of purified total RNA was extracted without DNase treatment and analyzed on a 1% agarose gel.",
+                "Figure 2. Genomic DNA extraction from Tenebrio molitor using the Clear-S™ Total DNA/RNA extraction kit. Genomic DNA was visualized on a 1% agarose gel.",
+                "Figure 3. Detection of SFTSV in Haemaphysalis ticks. RNA was extracted and tested using Clear-MD™ SFTSV nested RT-PCR detection kit.",
+                "Figure 4. Detection of Orientia tsutsugamushi in ticks. DNA was extracted and tested using Clear-MD™ Tsutsugamushi Real-time PCR detection kit (Probe/Nested)."
+            ],
+            "orderingImage": "./assets/img/life-product-detail10.png"
         },
         {
-            "id": 111,
+            "id": 11,
             "slug": "beniprep-pathogen-dna-rna-100rxn",
-            "categoryLabel": "DNA/RNA Extraction",
-            "name": "BeniPrep™ Pathogen DNA/RNA extraction kit (100rxn)",
+            "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
+            "name": "Beniprep® <br>Pathogen DNA/RNA <br>extraction kit (100rxn)",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail11.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This kit enables safe and efficient extraction of high-purity viral and bacterial DNA/RNA from clinical samples including CSF, blood, serum, cell-free fluid, and tissues such as insect bodies, ticks, and swabs. It is designed to prevent PCR inhibition by removing inhibitors through proprietary Beniprep® technology. The kit supports downstream molecular diagnostics and research using RT-PCR, qPCR, NGS, and more.",
+            "features": [
+                "Efficient extraction of DNA/RNA from a wide range of clinical and field samples",
+                "Safe for infectious specimens, excluding lysis reagents containing harmful chaotropic salts",
+                "Effectively removes PCR inhibitors from crude samples"
+            ],
+            "applications": [
+                "cDNA synthesis",
+                "RT-PCR",
+                "Quantitative RT-PCR",
+                "Digital PCR",
+                "Northern Blot",
+                "NGS"
+            ],
+            "protocol": "Sample → Homogenate → Inverting → Binding → Wash (2x) → Elution → DNA/RNA",
+            "experimentalData": [
+                "Figure 1. Detection of honeybee viruses from dead honeybees. RNA was extracted from infected bees using the Beniprep® Pathogen DNA/RNA extraction kit. Multiple virus bands detected (e.g., IAPV, KBV, ABPV, DWV) confirm successful detection from clinical samples.",
+                "Figure 2. Detection of mosquito viruses using Clear-MD™ Flavivirus Real-time RT-PCR kit (Invirustech). RNA extracted with Beniprep® kit was used to detect JE, DENV-4, ZIKA via Clear-MD™ qPCR kit.",
+                "Figure 3. Detection of dengue virus 1 by real-time qRT-PCR. Viral RNA was extracted from infected mosquitoes and tested using Clear-MD™ RT-PCR; amplification and melt curves confirm repeatability.",
+                "Figure 4. Electrophoretic analysis of nucleic acids extracted from oral swab samples. Nucleic acids were visualized on agarose gel after extraction using Beniprep® Pathogen DNA/RNA kit."
+            ],
+            "orderingImage": "./assets/img/life-product-detail11.png"
         },
         {
-            "id": 112,
+            "id": 12,
             "slug": "beniprep-magnetic-nucleic-100rxn",
-            "categoryLabel": "DNA/RNA Extraction",
-            "name": "BeniPrep™ Magnetic Nucleic extraction kit (100rxn)",
+            "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
+            "name": "Beniprep® <br>Magnetic Nucleic acid <br>extraction kit (100rxn)",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail12.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This product allows efficient extraction of high-purity nucleic acids from various samples such as blood, cells, and tissue using magnetic bead-based technology. It effectively removes PCR inhibitors and contaminants and allows fast and simple nucleic acid separation compared to conventional methods. It is also compatible with automated instruments.",
+            "features": [
+                "Efficient purification of total nucleic acids from diverse sample types",
+                "Effective removal of PCR inhibitors and impurities",
+                "Faster and simpler than conventional extraction methods",
+                "Suitable for automated nucleic acid extraction platforms"
+            ],
+            "applications": [
+                "cDNA synthesis",
+                "RT-PCR",
+                "Quantitative RT-PCR",
+                "Digital PCR",
+                "Northern Blot",
+                "NGS"
+            ],
+            "protocol": "Sample → Mixture → Homogenize → Incubate → Magnetic capture → Wash x3 → Elution → DNA/RNA",
+            "experimentalData": [
+                "Figure 1. Synthesis of magnetic nanoparticles with PAA for the selective capture of nucleic acids.",
+                "Figure 2. FE-SEM image of magnetic nanobeads. Magnetic nanobeads have a spherical morphology.",
+                "Figure 3. Extraction of Tenebrio molitor nucleic acids using the Beniprep® Magnetic Nucleic Acid extraction kit. 400 ng of total nucleic acids was extracted from mealworm (T. molitor).",
+                "Figure 4. Bacterial nucleic acid extraction using the Beniprep® Magnetic Nucleic Acid extraction kit. 400 ng of purified nucleic acids was extracted from E. coli and S. aureus."
+            ],
+            "orderingImage": "./assets/img/life-product-detail12.png"
         },
         {
-            "id": 113,
+            "id": 13,
             "slug": "beniprep-super-plant-total-nucleic-50rxn",
-            "categoryLabel": "DNA/RNA Extraction",
-            "name": "BeniPrep™ Super Plant Total Nucleic extraction kit (50rxn)",
+            "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
+            "name": "Beniprep® <br>Super Plant Total <br>Nucleic extraction kit (50rxn)",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail13.png",
-            "overview": "",
-            "features": [],
-            "applications": [],
-            "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "overview": "This kit uses a proprietary technology that avoids toxic organic solvents and enables the extraction of high-quality total nucleic acids from various plant samples such as mango, strawberry, grape, tomato, peach, banana, Asian pear, and ginkgo using a simple protocol. It is particularly suitable for plants with high polysaccharide or RNase content and can also be used with reference plants like Arabidopsis. The procedure ensures stable and reliable recovery of nucleic acids without requiring phenol or CTAB-based methods.",
+            "features": [
+                "Efficient purification of high-quality total nucleic acids from diverse plant tissues including fruits and leaves",
+                "High reproducibility using a spin column format",
+                "Replaces time-consuming CTAB, LiCl, phenol-based protocols",
+                "Removes impurities and inhibitors with a simplified extraction workflow"
+            ],
+            "applications": [
+                "cDNA synthesis",
+                "PCR",
+                "Quantitative real-time PCR",
+                "Digital PCR",
+                "Northern Blot",
+                "Molecular detection"
+            ],
+            "protocol": "Sample → Homogenization → Incubation → Vortex → Binding → Wash x3 → Elution → RNA/DNA",
+            "experimentalData": [
+                "Figure 1. Comparison of RNA extraction kits from Invirustech, Company Q, and Company N using various plant leaf samples. RNA (200 ng) was extracted from mango, strawberry, grape, tomato, peach, banana, pear, and hot pepper using three brands and visualized on agarose gel.",
+                "Figure 2. Plant leaf RNA extraction using Beniprep® Super Total Nucleic Acid Extraction Kit. 100 ng RNA extracted and purified from coffee, lemon, ginkgo, pine, and hot pepper using Method A or B.",
+                "Figure 3. RNA Purity and average yield from 8 plant leaves (mango, strawberry, grapevine, tomato, peach, banana, pear, hot pepper). Panel A shows RNA purity; Panel B shows average yield.",
+                "Figure 4. Amplification curves of 8 plant housekeeping genes. qRT-PCR was performed on an Analytik Jena qTOWER3 Real-time PCR system.",
+                "Figure 5. Melt curve analysis of 8 housekeeping genes. qRT-PCR results confirm single-peak specificity for all tested targets."
+            ],
+            "orderingImage": "./assets/img/life-product-detail13.png"
         },
         {
-            "id": 114,
+            "id": 14,
             "slug": "bulk-buffer",
-            "categoryLabel": "Buffer",
+            "categoryLabel": "Sample Preparation <br>Related Products",
             "name": "Bulk Buffer",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail14.png",
@@ -258,12 +381,12 @@
             "applications": [],
             "protocol": "",
             "experimentalData": [],
-            "orderingImage": ""
+            "orderingImage": "./assets/img/life-product-detail14.png"
         },
         {
-            "id": 115,
+            "id": 15,
             "slug": "enzyme",
-            "categoryLabel": "Enzyme",
+            "categoryLabel": "Sample Preparation <br>Related Products",
             "name": "Enzyme",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail15.png",
@@ -272,13 +395,13 @@
             "applications": [],
             "protocol": "",
             "experimentalData": [],
-            "orderingImage": ""
+            "orderingImage": "./assets/img/life-product-detail15.png"
         },
         {
-            "id": 116,
+            "id": 16,
             "slug": "column-tube",
-            "categoryLabel": "Consumables",
-            "name": "Column Tube",
+            "categoryLabel": "Sample Preparation <br>Related Products",
+            "name": "Column and Tube",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail16.png",
             "overview": "",
@@ -286,21 +409,31 @@
             "applications": [],
             "protocol": "",
             "experimentalData": [],
-            "orderingImage": ""
+            "orderingImage": "./assets/img/life-product-detail16.png"
         },
         {
-            "id": 117,
-            "slug": "real-time-hot-start-pcr",
-            "categoryLabel": "PCR",
-            "name": "Real-time Hot Start PCR kit",
+            "id": 17,
+            "slug": "pcr-polymerase",
+            "categoryLabel": "PCR polymerase",
+            "name": "Real-time PCR <br>Hot-start PCR",
             "thumbnail": "",
             "image": "./assets/img/sub-product-detail17.png",
-            "overview": "",
-            "features": [],
+            "overview": "ClearAmp™ Realtime PCR Master Mix (SYBR Green/PASSIVE REFERENCE DYE) is a 2X master mix optimized for real-time PCR using SYBR® Green I. This mix includes all necessary components for amplification except for primers and UNG, supporting efficient amplification and reproducibility. <br>ClearAmp™ SYBR RT-qPCR Master Mix (SYBR Green/PASSIVE REFERENCE DYE) is a 2X master mix containing Thermus thermophilus (Tth) DNA polymerase and Reverse transcriptase, designed for one-step RT-PCR. It enables cDNA synthesis from RNA templates at 60–70°C and includes all necessary components except primers and UNG.",
+            "features": [
+                "High specificity with Hot-start PCR: Anti-DNA polymerase prevents nonspecific amplification prior to thermal activation.",
+                "Stable amplification: PCR enhancer ensures high amplification efficiency and consistency across replicates.",
+                "High dynamic range: Maintains linearity across a wide range of template concentrations.",
+                "Compatibility with various real-time PCR instruments: Universal dye allows use with multiple platforms, including ABI QuantStudio.",
+                "Fast PCR: Optimized polymerase completes PCR in under 1 hour using fast cycling conditions.",
+                "dUTP system: Incorporates dUTP and UNG to minimize carryover contamination risks.",
+                "No signal interference from blue dye: Dye-free format avoids background fluorescence, enhancing result clarity."
+            ],
             "applications": [],
             "protocol": "",
-            "experimentalData": [],
-            "orderingImage": ""
+            "experimentalData": [
+                "Amplification curves demonstrate performance of ClearAmp™ SYBR Master Mix compared to Company T, targeting GbDV and GbACT genes."
+            ],
+            "orderingImage": "./assets/img/life-product-detail17.png"
         }
     ]
 }

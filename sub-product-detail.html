@@ -165,11 +165,14 @@
                     else $(this).removeAttr('aria-current');
                 });
 
+                // header
                 const catDisplay = titleMap[catKey] || '';
                 const subLabel = p.categoryLabel || '';
-
-                // header
-                $('.product-category').text([catDisplay, subLabel].filter(Boolean).join(' - '));
+                const catLine = [catDisplay, subLabel]
+                    .filter(Boolean)
+                    .join(' - ')
+                    .replace(/<\s*br\s*\/?\s*>/gi, ' '); 
+                $('.product-category').text(catLine);
 
                 const detailName = p.name.replace('<br>', ' ');
                 $('.product-name').html(detailName);
@@ -179,8 +182,15 @@
 
                 // overview / protocol
                 const setText = (sel, val) => {
-                    if (val) $(sel).text(val);
-                    else $(sel).attr('hidden', true);
+                    const has = val && String(val).trim() !== '';
+                    if (has) {
+                        $(sel)
+                            .html(String(val).replace(/(?:\r\n|\r|\n)/g, '<br>').replace(/<br\s*\/?>/gi, '<br>'))
+                            .removeAttr('hidden');
+                        $(sel).prev('.section-title').removeAttr('hidden');
+                    } else {
+                        $(sel).attr('hidden', true).prev('.section-title').attr('hidden', true);
+                    }
                 };
                 setText('.overview', p.overview);
                 setText('.protocol', p.protocol);
@@ -218,8 +228,9 @@
                     $('.ordering-image img')
                         .attr('src', p.orderingImage)
                         .attr('alt', `${String(p.name || '').replace(/<[^>]*>/g, '')} ordering information`);
+                    $('.ordering-image').removeAttr('hidden').prev('.section-title').removeAttr('hidden');
                 } else {
-                    $('.ordering-image').attr('hidden', true);
+                    $('.ordering-image').attr('hidden', true).prev('.section-title').attr('hidden', true);
                 }
             } catch (e) {
                 console.error('[DETAIL] load failed:', e);
