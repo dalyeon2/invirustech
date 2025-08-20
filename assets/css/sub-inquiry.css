@@ -124,3 +124,275 @@
 .btn:hover {
     background: #26a69a;
 }
+
+
+@media (max-width:1440px) {
+    .inquiry {
+        padding: 120px 0 160px;
+    }
+
+    .inquiry .container {
+        max-width: 1200px;
+        gap: 40px;
+        padding: 0 24px;
+    }
+
+    .inquiry .title {
+        font-size: 64px;
+        margin-bottom: 48px;
+    }
+
+    .inquiry .info {
+        gap: 18px;
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+
+    .inquiry .info .icon {
+        width: 36px;
+    }
+
+    .inquiry .form {
+        gap: 18px;
+    }
+
+    .inquiry .field {
+        padding: 16px 18px;
+    }
+
+    .inquiry .field input,
+    .inquiry .field textarea {
+        font-size: 17px;
+    }
+
+    .inquiry .btn {
+        width: 300px;
+    }
+}
+
+@media (max-width:1280px) {
+    .inquiry {
+        padding: 110px 0 150px;
+    }
+
+    .inquiry .container {
+        max-width: 1100px;
+        gap: 36px;
+        padding: 0 24px;
+    }
+
+    .inquiry .title {
+        font-size: 56px;
+        margin-bottom: 44px;
+    }
+
+    .inquiry .info {
+        font-size: 17px;
+        margin-bottom: 34px;
+    }
+
+    .inquiry .info .icon {
+        width: 32px;
+    }
+
+    .inquiry .field {
+        padding: 15px 18px;
+    }
+
+    .inquiry .field input,
+    .inquiry .field textarea {
+        font-size: 16.5px;
+    }
+
+    .inquiry .btn {
+        width: 280px;
+    }
+}
+
+@media (max-width:1024px) {
+    .inquiry {
+        padding: calc(56px + 36px) 0 120px;
+    }
+
+    .inquiry .container {
+        max-width: 960px;
+        padding: 0 24px;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .inquiry .title {
+        font-size: 48px;
+        margin-bottom: 28px;
+    }
+
+    .inquiry .left {
+        order: 1;
+    }
+
+    .inquiry .form {
+        order: 2;
+        margin-top: 0;
+        gap: 16px;
+    }
+
+    .inquiry .info {
+        margin-bottom: 22px;
+        font-size: 16.5px;
+        gap: 14px;
+    }
+
+    .inquiry .info .icon {
+        width: 28px;
+    }
+
+    .inquiry .field {
+        padding: 14px 16px;
+        gap: 10px;
+    }
+
+    .inquiry .field .icon {
+        width: 15px;
+    }
+
+    .inquiry .field input,
+    .inquiry .field textarea {
+        font-size: 16px;
+    }
+
+    .inquiry .field.textarea textarea {
+        height: 130px !important;
+    }
+
+    .inquiry .check {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .inquiry .policy {
+        font-size: 15px;
+    }
+
+    .inquiry .btn {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .inquiry::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, .08), rgba(0, 0, 0, .12));
+        pointer-events: none;
+    }
+}
+
+@media (max-width:768px) {
+    .inquiry {
+        padding: calc(56px + 24px) 0 100px;
+    }
+
+    .inquiry .container {
+        padding: 0 16px;
+        gap: 24px;
+    }
+
+    .inquiry .title {
+        font-size: 38px;
+        margin-bottom: 22px;
+    }
+
+    .inquiry .info {
+        font-size: 15.5px;
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .inquiry .info .icon {
+        width: 24px;
+    }
+
+    .inquiry .field {
+        padding: 13px 14px;
+    }
+
+    .inquiry .field input,
+    .inquiry .field textarea {
+        font-size: 15.5px;
+    }
+
+    .inquiry .field.textarea textarea {
+        height: 120px !important;
+    }
+
+    .inquiry .check {
+        font-size: 13.5px;
+        gap: 8px;
+    }
+
+    .inquiry .btn {
+        max-width: 320px;
+        font-size: 17px;
+        padding: 14px;
+    }
+}
+
+@media (max-width:480px) {
+    .inquiry {
+        padding: calc(54px + 20px) 0 80px;
+    }
+
+    .inquiry .container {
+        padding: 0 14px;
+        gap: 20px;
+    }
+
+    .inquiry .title {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+
+    .inquiry .info {
+        font-size: 15px;
+        gap: 10px;
+        margin-bottom: 14px;
+    }
+
+    .inquiry .info .icon {
+        width: 22px;
+    }
+
+    .inquiry .field {
+        padding: 12px 12px;
+        gap: 10px;
+    }
+
+    .inquiry .field .icon {
+        width: 14px;
+    }
+
+    .inquiry .field input,
+    .inquiry .field textarea {
+        font-size: 15px;
+    }
+
+    .inquiry .field.textarea textarea {
+        height: 110px !important;
+    }
+
+    .inquiry .check {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .inquiry .policy {
+        font-size: 14px;
+    }
+
+    .inquiry .btn {
+        width: 100%;
+        max-width: none;
+        font-size: 16px;
+        padding: 13px;
+    }
+}

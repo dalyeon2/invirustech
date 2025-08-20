@@ -266,6 +266,101 @@ nav.sidebar {
     height: auto;
 }
 
+@media (max-width:1440px) {
+    .main-footer {
+        padding: 40px 48px;
+    }
+
+    .footer-right img {
+        width: 200px;
+    }
+}
+
+@media (max-width:1280px) {
+    .main-footer {
+        padding: 36px 40px;
+    }
+
+    .main-footer .contacts {
+        gap: 36px;
+    }
+
+    .footer-right img {
+        width: 190px;
+    }
+}
+
+@media (max-width:1024px) {
+    .main-footer {
+        margin-left: 0;
+        padding: 28px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+        text-align: left;
+        gap: 12px;
+        font-size: 12px;
+    }
+
+    .footer-right img {
+        width: 180px;
+    }
+
+    .main-footer p {
+        font-size: 14px;
+    }
+
+    .main-footer .contacts {
+        gap: 24px;
+        flex-wrap: wrap;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:768px) {
+    .main-footer {
+        padding: 24px 16px;
+    }
+
+    .main-footer p {
+        font-size: 13.5px;
+    }
+
+    .main-footer .contacts {
+        column-gap: 16px;
+        row-gap: 8px;
+    }
+
+    .footer-right img {
+        width: 160px;
+    }
+}
+
+@media (max-width:480px) {
+    .main-footer {
+        padding: 20px 16px;
+    }
+
+    .main-footer p {
+        font-size: 13px;
+    }
+
+    .main-footer .contacts {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3px;
+    }
+
+    .footer-right img {
+        width: 140px;
+    }
+}
+
 .content {
     margin-left: 330px;
     position: relative;
@@ -333,4 +428,145 @@ nav.sidebar {
     font-size: var(--font-2xl);
     font-weight: 800;
     line-height: 36px;
+}
+
+@media (max-width:1280px) {
+    .sub-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 8px;
+        height: auto;
+        min-height: 300px;
+        padding: 36px 40px 24px 72px;
+    }
+
+    .product-visual {
+        right: -24px;
+        top: 0;
+        width: 560px;
+        height: auto;
+        opacity: .78;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .sub-header .title {
+        margin: 0;
+        font-size: 84px;
+        z-index: 2;
+    }
+
+    .sub-header .header-quote {
+        align-self: flex-end;
+        text-align: right;
+        z-index: 2;
+    }
+
+    .sub-header .header-quote .quote {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sub-header .header-quote .corp {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:1024px) {
+    .sub-header {
+        padding: calc(56px + 20px) 24px 18px 24px;
+        min-height: 260px;
+        gap: 6px;
+    }
+
+    .product-visual {
+        right: -12vw;
+        width: 70vw;
+        opacity: .72;
+    }
+
+    .sub-header .title {
+        font-size: 64px;
+    }
+
+    .sub-header .header-quote {
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .sub-header .header-quote .quote {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .sub-header .header-quote .corp {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:768px) {
+    .sub-header {
+        min-height: 220px;
+        padding: calc(56px + 16px) 16px 14px 16px;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .product-visual {
+        right: -16vw;
+        top: -4px;
+        width: 82vw;
+        opacity: .7;
+    }
+
+    .sub-header .title {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .sub-header .header-quote {
+        align-self: center;
+        text-align: center;
+    }
+
+    .sub-header .header-quote .quote {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sub-header .header-quote .corp {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width:480px) {
+    .sub-header {
+        min-height: 200px;
+        padding: calc(54px + 14px) 14px 12px 14px;
+    }
+
+    .product-visual {
+        right: -26vw;
+        top: -8px;
+        width: 92vw;
+        opacity: .65;
+    }
+
+    .sub-header .title {
+        font-size: 36px;
+    }
+
+    .sub-header .header-quote .quote {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sub-header .header-quote .corp {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

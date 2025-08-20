@@ -227,3 +227,198 @@
         animation: maskReveal 1.2s ease-out forwards;
     }
 }
+
+.overlay-text,
+.overlay-text p {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width:1440px) {
+
+    .top-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+    }
+
+    .top-grid .box {
+        padding: 32px;
+        font-size: 38px;
+    }
+
+    .bottom-section {
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    .bottom-box {
+        height: clamp(520px, 42vw, 760px);
+        padding: 48px;
+    }
+
+    .overlay-text {
+        max-width: min(90%, 680px);
+        gap: 24px;
+    }
+
+    .overlay-text p {
+        font-size: 28px;
+        line-height: 1.45;
+    }
+
+    .overlay-logo {
+        width: clamp(180px, 16vw, 260px);
+    }
+
+    .bottom-box.company {
+        height: auto;
+        min-height: clamp(480px, 36vw, 680px);
+    }
+}
+
+@media (max-width:1280px) {
+
+    .top-grid {
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .top-grid .box {
+        aspect-ratio: 16/10;
+        padding: 28px;
+        font-size: 34px;
+    }
+
+    .bottom-section {
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    .bottom-box {
+        height: clamp(420px, 40vw, 640px);
+        padding: 40px;
+    }
+
+    .overlay-text {
+        max-width: min(90%, 640px);
+        gap: 22px;
+    }
+
+    .overlay-text p {
+        font-size: 24px;
+    }
+
+    .bottom-box.company {
+        height: auto;
+        min-height: clamp(420px, 36vw, 620px);
+    }
+}
+
+@media (max-width:1024px) {
+    .content {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: calc(56px + 16px);
+    }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .bottom-box {
+        height: clamp(320px, 46vh, 520px);
+        min-height: 320px;
+        padding: 28px;
+    }
+
+    .overlay-text {
+        max-width: 100%;
+        gap: 18px;
+    }
+
+    .overlay-text p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .overlay-logo {
+        width: clamp(140px, 22vw, 220px);
+    }
+
+    .top-grid .box {
+        aspect-ratio: 16/12;
+        font-size: 26px;
+        padding: 24px;
+    }
+
+    .bottom-box.company {
+        height: auto;
+        min-height: 0;
+        padding-bottom: 28px;
+    }
+}
+
+@media (max-width:780px) {
+    .top-grid .box::before {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media (max-width:768px) {
+    .content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .top-grid .box {
+        aspect-ratio: 4/3;
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .overlay-text.company-text h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .overlay-text.company-text p {
+        font-size: 16px;
+        line-height: 1.55;
+    }
+
+    .bottom-box.company {
+        height: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .content {
+        padding-top: calc(54px + 16px);
+    }
+
+    .top-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .top-grid .box {
+        aspect-ratio: 7/5;
+        font-size: 20px;
+        padding: 18px;
+    }
+
+    .overlay-logo {
+        width: clamp(110px, 34vw, 160px);
+    }
+
+    .bottom-box.company {
+        height: auto;
+    }
+}

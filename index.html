@@ -35,10 +35,10 @@
 
     <div class="content">
         <div class="top-grid">
-            <a href="sub-product.html" class="box life"><span>Life Science</span></a>
-            <a href="#" class="box molecular"><span>Molecular Diagnostic</span></a>
-            <a href="#" class="box plastic"><span>Plastic Ware</span></a>
-            <a href="#" class="box others"><span>Others</span></a>
+            <a class="box life menu-item" data-cat="life-science"><span>Life Science</span></a>
+            <a class="box molecular menu-item" data-cat="molecular-diagnostic"><span>Molecular Diagnostic</span></a>
+            <a class="box plastic menu-item" data-cat="plastic-ware"><span>Plastic Ware</span></a>
+            <a class="box others menu-item" data-cat="others"><span>Others</span></a>
         </div>
 
         <div class="bottom-section">
@@ -84,7 +84,7 @@
     <script>
         const listPageHref = 'sub-product.html';
 
-        $('.sidebar .menu-item[data-cat]').each(function () {
+        $('.menu-item[data-cat]').each(function () {
             const key = $(this).data('cat');
             $(this).attr('href', `${listPageHref}?cat=${encodeURIComponent(key)}`);
         });      
