@@ -1,5 +1,144 @@
 {
     "category": "molecular-diagnostic",
     "products": [
+        {
+            "id": 1,
+            "slug": "clear-md-multiplex-rt-pcr-100rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® DENV/ZIKV/CHIKV/JEV/WNV/YFV Multiplex Real-time RT-PCR Detection Kit (FAM/HEX/ROX) (100rxn)",
+            "thumbnail": "./assets/img/molecular-product01.png",
+            "image": "",
+            "overview": "This multiplex RT-PCR kit is designed to detect six major mosquito-borne flaviviruses including Dengue virus (DENV), Zika virus (ZIKV), Japanese encephalitis virus (JEV), West Nile virus (WNV), Yellow fever virus (YFV), and Chikungunya virus (CHIKV). It is a dual-tube test format allowing separate reactions for probe mix 1 and probe mix 2 to differentiate targets using specific fluorescent dyes.",
+            "features": [
+                "Primer/probe mix 1 detects DENV, YFV, CHIKV",
+                "Primer/probe mix 2 detects JEV, WNV, ZIKV"
+            ],
+            "experimentalData": [
+                "Amplification plots show fluorescence signals from all 6 targets with dye-specific channels (FAM, HEX/VIC, ROX). Separate plots are displayed for probe mix 1 and probe mix 2, with reporter dyes assigned per target.",
+                "Target-reporter dye mapping: <br>- DENV1,3 3’UTR: FAM <br>- DENV2,4 5’UTR: HEX, VIC <br>- YFV 5’UTR: HEX, VIC <br>- CHIKV Envelope: ROX <br>- JEV1,3: FAM <br>- WNV: HEX <br>- ZIKV: ROX <br>"
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "clear-md-rt-nested-pcr-40rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® DENV/ZIKV/CHIKV/JEV/WNV/YFV RT-nested PCR Kit (40rxn)",
+            "thumbnail": "./assets/img/molecular-product02.png",
+            "image": "",
+            "overview": "This RT-nested PCR kit is used to detect major mosquito-borne Flaviviruses using electrophoresis for result confirmation. It is designed for conventional nested-PCR detection, providing high specificity for research or surveillance use.",
+            "features": [
+                "Nested-PCR method",
+                "Result visualization via electrophoresis"
+            ],
+            "experimentalData": [
+                "Gel electrophoresis image shows clear amplification of 10 different samples corresponding to DENV1~4, CHIKV, YFV, JEV1, JEV5, ZIKV, and NTC (negative control). Bands are detected between 100–500bp."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail02.png"
+        },
+        {
+            "id": 3,
+            "slug": "clear-md-rt-pcr-detection-100rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® <br>SFTSV Real-time RT-PCR Detection Kit (Probe) (100rxn)",
+            "thumbnail": "./assets/img/molecular-product03.png",
+            "image": "",
+            "overview": "This kit is designed to detect Severe Fever with Thrombocytopenia Syndrome Virus (SFTSV) using real-time RT-PCR targeting the M and S genome segments. It provides high specificity with minimal cross-reactivity to other tick-borne or mosquito-borne viruses.",
+            "features": [
+                "Target gene: SFTSV M and S segments",
+                "No cross-reactivity with other viruses or background organisms"
+            ],
+            "experimentalData": [
+                "Amplification curves show detection of both S and M segments with internal control. Cross-reactivity testing with 16 related viruses confirms specificity to SFTSV types (A/B/C) only."
+            ]
+        },
+        {
+            "id": 4,
+            "slug": "clear-md-sftsv-rt-nested-pcr-40rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® <br>SFTSV M Segment RT-nested PCR Kit (40rxn)",
+            "thumbnail": "./assets/img/molecular-product04.png",
+            "image": "",
+            "overview": "This nested RT-PCR kit is optimized for detecting SFTSV by targeting the M segment. It uses a two-step nested amplification protocol and gel electrophoresis to confirm the presence of SFTSV-specific bands.",
+            "features": [
+                "Target gene: SFTSV M and S segments",
+                "No cross-reactivity with tick- or mosquito-borne virus backgrounds"
+            ],
+            "experimentalData": [
+                "Electrophoresis image displays clear separation of SFTSV-positive samples (530 bp) and internal control bands (PTC, 218 bp), enabling reliable result confirmation."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail04.png"
+        },
+        {
+            "id": 5,
+            "slug": "clear-md-densovirus-pcr-detection-48rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® <br>Densovirus PCR Detection Kit (48rxn)",
+            "thumbnail": "./assets/img/molecular-product05.png",
+            "image": "",
+            "overview": "This kit is optimized to detect densovirus infection in silkworms (Gryllus bimaculatus) using endpoint PCR. It can be used to confirm viral infection from extracted DNA or RNA samples.",
+            "experimentalData": [
+                "Gel electrophoresis image confirms successful densovirus detection using densovirus-specific primers. Amplification plots support qPCR curve validation."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail05.png"
+        },
+        {
+            "id": 6,
+            "slug": "clear-md-flavivirus-rt-pcr-detection-200rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® Flavivirus Real-time RT-PCR Detection Kit (200rxn)",
+            "thumbnail": "./assets/img/molecular-product06.png",
+            "image": "",
+            "overview": "This real-time RT-PCR kit is designed to detect multiple flaviviruses including Zika virus, Dengue virus, West Nile virus, Japanese encephalitis virus, and Yellow fever virus with high sensitivity and specificity.",
+            "experimentalData": [
+                "Amplification and gel electrophoresis plots confirm detection of positive samples with clear PTC bands."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail06.png"
+        },
+        {
+            "id": 7,
+            "slug": "clear-md-sftsv-nested-rt-pcr-detection-100rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® SFTSV Nested RT-PCR Detection Kit (100rxn)",
+            "thumbnail": "./assets/img/molecular-product07.png",
+            "image": "",
+            "overview": "This kit detects SFTSV (Severe Fever with Thrombocytopenia Syndrome Virus) using nested RT-PCR and melting temperature (Tm) analysis to determine infection status with high precision.",
+            "experimentalData": [
+                "Melt curve plots confirm specific amplification for SFTSV-positive samples."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail07.png"
+        },
+        {
+            "id": 8,
+            "slug": "clear-md-tsutsugamushi-rt-pcr-detection-96rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® Tsutsugamushi Real-time PCR Detection Kit (Probe) (96rxn)",
+            "thumbnail": "./assets/img/molecular-product08.png",
+            "image": "",
+            "overview": "This real-time PCR kit is designed for the detection of Orientia tsutsugamushi, the causative agent of scrub typhus. It targets the 56 kDa antigen-specific gene to enhance sensitivity and specificity of detection.",
+            "experimentalData": [
+                "Amplification and gel electrophoresis results show distinct bands for Tsutsugamushi (530 bp) and internal control (PTC 250 bp)."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail08.png"
+        },
+        {
+            "id": 9,
+            "slug": "clear-md-sftsv-tsutsugamushi-rt-pcr-detection-100rxn",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Clear-MD® SFTSV/Tsutsugamushi Real-time PCR Detection Kit (Probe) (100rxn)",
+            "thumbnail": "./assets/img/molecular-product09.png",
+            "image": "",
+            "overview": "This real-time PCR kit detects both Orientia tsutsugamushi and Severe Fever with Thrombocytopenia Syndrome Virus (SFTSV). It targets the 56 kDa antigen-specific gene for O. tsutsugamushi and specific SFTSV genes, enhancing both sensitivity and specificity of detection.",
+            "experimentalData": [
+                "Amplification plots show separate detection of SFTSV, Tsutsugamushi, and internal control signals."
+            ],
+            "orderingImage": "./assets/img/molecular-product-detail09.png"
+        },
+        {
+            "id": 10,
+            "slug": "molecular-diagnostic-full-product-information",
+            "categoryLabel": "Real-time PCR kit & <br> Conventional PCR kit",
+            "name": "Molecular Diagnostic - Full Product Information",
+            "orderingImage": "./assets/img/molecular-product-detail10.png"
+        }
     ]
 }

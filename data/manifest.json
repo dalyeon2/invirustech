@@ -16,6 +16,22 @@
         "bulk-buffer": "life-science",
         "enzyme": "life-science",
         "column-tube": "life-science",
-        "pcr-polymerase": "life-science"
+        "pcr-polymerase": "life-science",
+        "clear-md-multiplex-rt-pcr-100rxn": "molecular-diagnostic",
+        "clear-md-rt-nested-pcr-40rxn": "molecular-diagnostic",
+        "clear-md-rt-pcr-detection-100rxn": "molecular-diagnostic",
+        "clear-md-sftsv-rt-nested-pcr-40rxn": "molecular-diagnostic",
+        "clear-md-densovirus-pcr-detection-48rxn": "molecular-diagnostic",
+        "clear-md-flavivirus-rt-pcr-detection-200rxn": "molecular-diagnostic",
+        "clear-md-sftsv-nested-rt-pcr-detection-100rxn": "molecular-diagnostic",
+        "clear-md-tsutsugamushi-rt-pcr-detection-96rxn": "molecular-diagnostic",
+        "clear-md-sftsv-tsutsugamushi-rt-pcr-detection-100rxn": "molecular-diagnostic",
+        "molecular-diagnostic-full-product-information": "molecular-diagnostic",
+        "pcr-single-8-strip-tubes": "plastic-ware",
+        "qpcr-8-strip-tubes-plate": "plastic-ware",
+        "qpcr-8-strip-tubes-plate-optical-cap-type": "plastic-ware",
+        "instrument-compatibility-chart": "plastic-ware",
+        "liquid-handling-insect-collect": "plastic-ware",
+        "decontamination-solution": "plastic-ware" 
     }
 }

@@ -1,5 +1,96 @@
 {
     "category": "plastic-ware",
     "products": [
+        {
+            "id": 1,
+            "slug": "pcr-single-8-strip-tubes",
+            "categoryLabel": "PCR consumable",
+            "name": "PCR Single & <br>8-Strip Tubes",
+            "thumbnail": "",
+            "image": "",
+            "features": [
+                "Soft-opening caps with excellent sealing prevent evaporation during PCR",
+                "Uniform wall thickness and flat bottom provide consistent heat transfer",
+                "Compatible with a wide range of thermal cyclers",
+                "Certified RNase/DNase-free, non-pyrogenic, endotoxin-free",
+                "Made of high-quality medical-grade polypropylene (PP), resistant from -80°C to 121°C"
+            ],
+            "orderingImage": [
+                { "src": "./assets/img/plastic-product-detail01.png", "note": "PCR tube, 8-strip and Single" },
+                { "src": "./assets/img/plastic-product-detail02.png", "note": "PCR tube, 8-strip, Sterilized" }
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "qpcr-8-strip-tubes-plate",
+            "categoryLabel": "PCR consumable",
+            "name": "qPCR 8-Strip Tubes & Plate",
+            "thumbnail": "",
+            "image": "",
+            "features": [
+                "Plate design supports both Non-skirt and Skirt type cyclers, interchangeable as needed",
+                "Material: Plates are made from polypropylene (PP), skirts from polycarbonate (PC)"
+            ],
+            "orderingImage": [
+                { "src": "./assets/img/plastic-product-detail03.png", "note": "96-well Plate, 0.2ml" },
+                { "src": "./assets/img/plastic-product-detail04.png", "note": "96-well Plate, 0.2ml, Sterilized" },
+                { "src": "./assets/img/plastic-product-detail05.png", "note": "qPCR 96-well Plate, 0.1ml" },
+                { "src": "./assets/img/plastic-product-detail06.png", "note": "qPCR 96-well Plate, 0.1ml, Sterilized" },
+                { "src": "./assets/img/plastic-product-detail07.png", "note": "qPCR Sealing Film" }
+            ]
+        },
+        {
+            "id": 3,
+            "slug": "qpcr-8-strip-tubes-plate-optical-cap-type",
+            "categoryLabel": "PCR consumable",
+            "name": "qPCR 8-Strip Tubes & Plate (Optical Cap Type)",
+            "thumbnail": "",
+            "image": "",
+            "features": [
+                "Optimized material ensures high performance and sensitivity for real-time PCR",
+                "Tube color options: white, frosted, clear – compatible with all major cyclers",
+                "Compatible with a wide range of real-time instruments such as CFX96, StepOnePlus",
+                "Certified DNase/RNase free, Non-pyrogenic, Endotoxin free",
+                "8-strip format minimizes cap detachment and ensures uniform sealing"
+            ],
+            "orderingImage": [
+                { "src": "./assets/img/plastic-product-detail08.png", "note": "qPCR Tube, 8-Strip (White Optical Flat Cap)" },
+                { "src": "./assets/img/plastic-product-detail09.png", "note": "96-well Plate, 0.2ml, Sterilized" }
+            ]
+        },
+        {
+            "id": 4,
+            "slug": "instrument-compatibility-chart",
+            "categoryLabel": "PCR consumable",
+            "name": "Instrument Compatibility Chart",
+            "thumbnail": "",
+            "image": "",
+            "overview": "This chart shows the compatibility between InvirusTech's PCR/qPCR tubes and plates with various thermal cyclers and qPCR instruments from leading manufacturers such as Bio-Rad, ABI (Applied Biosystems), Roche, Analytik Jena, and others.",
+            "orderingImage": [
+                { "src": "./assets/img/plastic-product-detail10.png", "note": "Each circle (○) indicates that the corresponding product is compatible with the listed instrument. This compatibility was tested on commonly used qPCR and thermal cyclers, ensuring sealing, heat transfer, and optical performance were all validated. <br>Instrument brands covered include: <br>• Bio-Rad (e.g., CFX96, iCycler iQ, MyiQ) <br>• ABI / Applied Biosystems (e.g., StepOne, QuantStudio series, ViiA7) <br>• Roche (e.g., Light Cycler 96/480) <br>• Analytik Jena (e.g., qTOWER series, AriaMx) <br>• Stratagene, IT-IS, Eppendorf, Thermo <br>Note: Full compatibility matrix available in the catalog chart." }
+            ]
+        },
+        {
+            "id": 5,
+            "slug": "liquid-handling-insect-collect",
+            "categoryLabel": "Liquid Handling & Insect Collect",
+            "name": "Liquid Handling & Insect Collect",
+            "orderingImage": [
+                { "src": "./assets/img/plastic-product-detail11.png", "note": "Disposable Filter Tips" },
+                { "src": "./assets/img/plastic-product-detail12.png", "note": "Microcentrifuge Tubes" },
+                { "src": "./assets/img/plastic-product-detail13.png", "note": "Insect Collect Tools" }
+            ]
+        },
+        {
+            "id": 6,
+            "slug": "decontamination-solution",
+            "categoryLabel": "Decontamination Solution",
+            "name": "Decontamination Solution",
+            "overview": "These products are designed to effectively decontaminate surfaces, instruments, and laboratory environments from nucleic acid residues. They provide reliable performance in both cleanroom and diagnostic lab settings. This solution is ideal for eliminating cross-contamination and carry-over contamination in molecular diagnostics.",
+            "orderingImage": [
+                { "src": "./assets/img/plastic-product-detail14.png", "note": "Surface Decontamination" },
+                { "src": "./assets/img/plastic-product-detail15.png", "note": "Space Sterilization" }
+            ]
+        }
     ]
 }

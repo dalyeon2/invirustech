@@ -249,7 +249,7 @@
             "slug": "clear-s-total-dna-rna-50rxn",
             "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
             "name": "Clear-S™ <br>Total DNA/RNA extraction kit <br>(50rxn)",
-            "thumbnail": "",
+            "thumbnail": "./assets/img/life-product09.png",
             "image": "./assets/img/sub-product-detail10.png",
             "overview": "This kit enables simple and efficient extraction of both genomic DNA and total RNA from diverse samples such as bacteria, cells, animal tissues, insects, and plants. Using a high-purity spin column system, nucleic acids can be separated by selectively binding to DNA and RNA spin column membranes. DNA and RNA can be isolated individually or together depending on user requirements.",
             "features": [
@@ -281,7 +281,7 @@
             "slug": "beniprep-pathogen-dna-rna-100rxn",
             "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
             "name": "Beniprep® <br>Pathogen DNA/RNA <br>extraction kit (100rxn)",
-            "thumbnail": "",
+            "thumbnail": "./assets/img/life-product09.png",
             "image": "./assets/img/sub-product-detail11.png",
             "overview": "This kit enables safe and efficient extraction of high-purity viral and bacterial DNA/RNA from clinical samples including CSF, blood, serum, cell-free fluid, and tissues such as insect bodies, ticks, and swabs. It is designed to prevent PCR inhibition by removing inhibitors through proprietary Beniprep® technology. The kit supports downstream molecular diagnostics and research using RT-PCR, qPCR, NGS, and more.",
             "features": [
@@ -311,7 +311,7 @@
             "slug": "beniprep-magnetic-nucleic-100rxn",
             "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
             "name": "Beniprep® <br>Magnetic Nucleic acid <br>extraction kit (100rxn)",
-            "thumbnail": "",
+            "thumbnail": "./assets/img/life-product09.png",
             "image": "./assets/img/sub-product-detail12.png",
             "overview": "This product allows efficient extraction of high-purity nucleic acids from various samples such as blood, cells, and tissue using magnetic bead-based technology. It effectively removes PCR inhibitors and contaminants and allows fast and simple nucleic acid separation compared to conventional methods. It is also compatible with automated instruments.",
             "features": [
@@ -342,7 +342,7 @@
             "slug": "beniprep-super-plant-total-nucleic-50rxn",
             "categoryLabel": "Sample Preparation <br>Total Nucleic acid extraction kit",
             "name": "Beniprep® <br>Super Plant Total <br>Nucleic extraction kit (50rxn)",
-            "thumbnail": "",
+            "thumbnail": "./assets/img/life-product09.png",
             "image": "./assets/img/sub-product-detail13.png",
             "overview": "This kit uses a proprietary technology that avoids toxic organic solvents and enables the extraction of high-quality total nucleic acids from various plant samples such as mango, strawberry, grape, tomato, peach, banana, Asian pear, and ginkgo using a simple protocol. It is particularly suitable for plants with high polysaccharide or RNase content and can also be used with reference plants like Arabidopsis. The procedure ensures stable and reliable recovery of nucleic acids without requiring phenol or CTAB-based methods.",
             "features": [
@@ -374,7 +374,7 @@
             "slug": "bulk-buffer",
             "categoryLabel": "Sample Preparation <br>Related Products",
             "name": "Bulk Buffer",
-            "thumbnail": "",
+            "thumbnail": "./assets/img/life-product14.png",
             "image": "./assets/img/sub-product-detail14.png",
             "overview": "",
             "features": [],
@@ -388,7 +388,7 @@
             "slug": "enzyme",
             "categoryLabel": "Sample Preparation <br>Related Products",
             "name": "Enzyme",
-            "thumbnail": "",
+            "thumbnail": "./assets/img/life-product15.png",
             "image": "./assets/img/sub-product-detail15.png",
             "overview": "",
             "features": [],

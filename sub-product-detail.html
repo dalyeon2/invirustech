@@ -171,7 +171,7 @@
                 const catLine = [catDisplay, subLabel]
                     .filter(Boolean)
                     .join(' - ')
-                    .replace(/<\s*br\s*\/?\s*>/gi, ' '); 
+                    .replace(/<\s*br\s*\/?\s*>/gi, ' ');
                 $('.product-category').text(catLine);
 
                 const detailName = p.name.replace('<br>', ' ');
@@ -224,13 +224,44 @@
                 }
 
                 // ordering image
-                if (p.orderingImage) {
-                    $('.ordering-image img')
-                        .attr('src', p.orderingImage)
-                        .attr('alt', `${String(p.name || '').replace(/<[^>]*>/g, '')} ordering information`);
-                    $('.ordering-image').removeAttr('hidden').prev('.section-title').removeAttr('hidden');
+                const getOrderingItems = (p) => {
+                    if (Array.isArray(p.orderingImage)) return p.orderingImage;
+                    if (Array.isArray(p.orderingImages)) return p.orderingImages;
+                    if (Array.isArray(p.ordering)) return p.ordering;
+                    return p.orderingImage ? [p.orderingImage] : [];
+                };
+
+                const items = getOrderingItems(p);
+                const $wrap = $('.ordering-image');
+
+                if (items.length) {
+                    $wrap.empty();
+                    const altBase = $('.product-name').text().trim();
+
+                    items.forEach((it, i) => {
+                        const src = typeof it === 'string' ? it : it.src;
+                        const note = typeof it === 'string' ? '' : (it.note || it.caption || '');
+
+                        const $block = $('<div class="ordering-block"></div>');
+
+                        if (note) {
+                            $('<p class="ordering-caption"></p>')
+                                .html(note) 
+                                .appendTo($block);
+                        }
+
+                        $('<img>', {
+                            src,
+                            loading: 'lazy',
+                            alt: `${altBase} ordering information${items.length > 1 ? ` (${i + 1})` : ''}`
+                        }).appendTo($block);
+
+                        $wrap.append($block);
+                    });
+
+                    $wrap.removeAttr('hidden').prev('.section-title').removeAttr('hidden');
                 } else {
-                    $('.ordering-image').attr('hidden', true).prev('.section-title').attr('hidden', true);
+                    $wrap.attr('hidden', true).prev('.section-title').attr('hidden', true);
                 }
             } catch (e) {
                 console.error('[DETAIL] load failed:', e);
