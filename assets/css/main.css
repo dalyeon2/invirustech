@@ -79,10 +79,16 @@
 
 .box.life::before {
     background-image: url('../img/life-hover.png');
+    background-repeat: no-repeat;
+    background-position: right -90px bottom 40px;
+    background-size: clamp(250px, 110%, 570px) auto;
 }
 
 .box.molecular::before {
     background-image: url('../img/molecular-hover.png');
+    background-repeat: no-repeat;
+    background-position: right -80px bottom 20px;
+    background-size: clamp(230px, 100%, 520px) auto;
 }
 
 .box.plastic::before {
@@ -90,7 +96,10 @@
 }
 
 .box.others::before {
-    background-image: url('../img/others-hover.png');
+    background-image: url('../img/other-hover.png');
+    background-repeat: no-repeat;
+    background-position: right 40px bottom 70px;
+    background-size: clamp(140px, 45%, 100px) auto;
 }
 
 .top-grid .box:hover {
@@ -359,14 +368,17 @@
     }
 }
 
-@media (max-width:780px) {
+@media (max-width:768px) {
+
     .top-grid .box::before {
         opacity: 1;
         transform: scale(1);
     }
-}
 
-@media (max-width:768px) {
+    .top-grid .box.others::before {
+        background-size: clamp(110px, 32%, 200px) auto;
+    }
+
     .content {
         padding-left: 16px;
         padding-right: 16px;

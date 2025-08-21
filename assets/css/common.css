@@ -215,7 +215,8 @@ nav.sidebar {
     }
 
     .site-header .mobile-logo img {
-        height: 26px;
+        width: 140px;
+        height: auto;
     }
 }
 

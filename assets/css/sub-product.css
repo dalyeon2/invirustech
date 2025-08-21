@@ -297,7 +297,7 @@
 
 @media (max-width:480px) {
     .product-section {
-        padding: calc(54px + 16px) 14px 80px;
+        padding: calc(20px + 16px) 14px 80px;
     }
 
     .title {

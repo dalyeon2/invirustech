@@ -145,10 +145,10 @@
                     `;
                 }).join('');
 
-                $('.products-grid').html(html || '<p style="padding:20px">No products to display.</p>');
+                $('.products-grid').html(html || '<p>No products to display.</p>');
             } catch (e) {
                 console.error('[LIST] load failed:', e);
-                $('.products-grid').html('<p style="padding:20px">Failed to load product list.</p>');
+                $('.products-grid').html('<p>Failed to load product list.</p>');
             }
 
         });
